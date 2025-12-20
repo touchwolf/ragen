@@ -17,3 +17,5 @@ tensordict<0.6
 transformers<4.48
 vllm<=0.6.3
 wandb
+filelock>=3.20.1 # not directly required, pinned by Snyk to avoid a vulnerability
+torch>=2.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
